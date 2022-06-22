@@ -96,6 +96,7 @@
 }
 .two-columns__paragraph {
   line-height: 34px;
+  margin: 0;
 }
 
 .two-columns__paragraph:not(:last-child) {
@@ -135,7 +136,8 @@
 .table__heading {
   font-weight: 700;
   line-height: 1.15;
-  margin: 0 0 20 0;
+  font-size: 24px;
+  margin: 0 0 20px 0;
 }
 .table__text {
   font-size: 18px;
@@ -201,9 +203,12 @@
   right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat; 
+  background-size: cover;
 }
 .section-title_theme_dark {
   margin: 90px auto 20px;
+  position: relative;
+  z-index: 1;
 }
 .table_theme_dark {
   position: relative;
