@@ -1,7 +1,7 @@
 .resources__image {
     height: 38px;
+    transition: .4s;
 }
 .resources__image:hover {
     opacity: 0.6;
-    transition: .4s;
   }
